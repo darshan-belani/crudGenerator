@@ -1,0 +1,31 @@
+{
+    "name": "inx/crud-generator",
+    "description": "Laravel CRUD Generator",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^10.30|^11.0",
+        "laravel/prompts": "^0.1.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inx\\CrudGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darshan Belani",
+            "email": "darshan.b@inheritx.com"
+        }
+    ],
+    "keywords": ["laravel", "crud", "crud generator", "laravel crud generator", "laravel package", "bootstrap css", "tailwind css", "livewire"],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Inx\\CrudGenerator\\CrudServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

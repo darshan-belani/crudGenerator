@@ -1,0 +1,25 @@
+<x-app-layout>
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">
+            <div class="bg-white shadow sm:rounded-lg">
+                <div class="w-full">
+                    <div class="bg-gray-200 sm:rounded-t-lg border border-slate-200	p-4 flex justify-between items-center">
+                        <span id="card_title" class="font-semibold text-lg"> {{ __('Create') }} {{modelTitle}} </span>
+                    </div>
+
+                      <div class="flow-root">
+                        <div class="mt-6 mb-4 overflow-x-auto">
+                            <div class="max-w-full py-2 p-8 align-middle">
+                                <form method="POST" action="{{ route('{{modelRoute}}.store') }}"  role="form" enctype="multipart/form-data">
+                                    @csrf
+
+                                    @include('{{modelView}}.form')
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</x-app-layout>
