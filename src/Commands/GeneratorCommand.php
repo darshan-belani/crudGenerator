@@ -1,6 +1,6 @@
 <?php
 
-namespace Inx\CrudGenerator\Commands;
+namespace DarshanBelani\CrudGenerator\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
@@ -10,7 +10,7 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use Inx\CrudGenerator\ModelGenerator;
+use DarshanBelani\CrudGenerator\ModelGenerator;
 use RuntimeException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Process\Process;

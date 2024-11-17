@@ -1,6 +1,6 @@
 <?php
 
-namespace Inx\CrudGenerator\Commands;
+namespace DarshanBelani\CrudGenerator\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
@@ -137,7 +137,7 @@ class CrudGenerator extends GeneratorCommand
     /**
      * Build the Controller Class and save in app/Http/Controllers.
      *
-     * @return \Inx\CrudGenerator\Commands\CrudGenerator
+     * @return \DarshanBelani\CrudGenerator\Commands\CrudGenerator
      * @throws FileNotFoundException
      */
     protected function buildController(): static

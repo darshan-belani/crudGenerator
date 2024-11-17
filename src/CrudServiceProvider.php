@@ -1,9 +1,9 @@
 <?php
 
-namespace Inx\CrudGenerator;
+namespace DarshanBelani\CrudGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use Inx\CrudGenerator\Commands\CrudGenerator;
+use DarshanBelani\CrudGenerator\Commands\CrudGenerator;
 
 class CrudServiceProvider extends ServiceProvider
 {

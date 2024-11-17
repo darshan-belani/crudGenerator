@@ -1,6 +1,6 @@
 <?php
 
-namespace Inx\CrudGenerator;
+namespace DarshanBelani\CrudGenerator;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;

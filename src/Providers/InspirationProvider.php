@@ -1,6 +1,6 @@
 <?php
 
-namespace Inx\CrudGenerator\Providers;
+namespace DarshanBelani\CrudGenerator\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
