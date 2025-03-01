@@ -349,7 +349,7 @@ abstract class GeneratorCommand extends Command implements PromptsForMissingInpu
      * @throws FileNotFoundException
      *
      */
-    protected function getField($title, $column, string $type = 'git -field'): string
+    protected function getField($title, $column, string $type = 'form-field'): string
     {
         $replace = array_merge($this->buildReplacements(), [
             '{{title}}' => $title,
