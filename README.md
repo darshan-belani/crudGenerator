@@ -1,4 +1,4 @@
-![model_1](images/crud-generator-laravel.png)
+![model_1](images/laravel-crud-generator.png)
 
 This Laravel CRUD Generator package streamlines development by generating Migration, Controllers, Models (with Eloquent relationships), and Views using a single command. It supports multiple frontend stacks, including **Bootstrap**, **Tailwind CSS**, and **Livewire** (Livewire views use **Tailwind CSS**). You can also choose an **API-only** stack for backend-focused applications.
 
