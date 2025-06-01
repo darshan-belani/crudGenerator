@@ -75,11 +75,11 @@ php artisan make:crud {table_name} --route={route_name}
 
 ## Examples
 
-*Model*
+*Model structure*
 ![model](images/model_1.png)
 
 
-*Controller*
+*Controller structure*
 ![controller](images/controller.png)
 
 
