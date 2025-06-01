@@ -77,8 +77,9 @@ php artisan make:crud {table_name} --route={route_name}
 
 *Model*
 ![model_1](images/model_1.png)
-*Controller*
 
+
+*Controller*
 ![controller](images/controller.png)
 
 
