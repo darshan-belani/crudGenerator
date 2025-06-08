@@ -30,6 +30,8 @@ composer require darshan-belani/crud-generator-laravel
 ```
 
 ## Usage
+When creating a blog module, please ensure that the table name is set as either blogs or posts.
+
 ```
 php artisan make:crud {table_name}
 
