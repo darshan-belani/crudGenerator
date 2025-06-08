@@ -87,12 +87,12 @@ php artisan make:crud {table_name} --route={route_name}
 ![controller](images/controller.png)
 
 
-*Livewire component*
+*Livewire component        *
 
 ![live_wire](images/live_wire.png)
 
 
-*API only controller*
+*API only controller    *
 
 ![api_controller](images/api_controller.png)
 
