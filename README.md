@@ -130,5 +130,3 @@ php artisan vendor:publish --tag=stubs-crud
 ## Author
 
 Darshan Belani // [Email Me](mailto:darshan.belani9@gmail.com)
-
-Hire Me [LinkedIn](https://www.linkedin.com/in/darshan-belani-026848114/)
